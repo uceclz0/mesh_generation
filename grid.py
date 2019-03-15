@@ -142,9 +142,9 @@ class Grid(object):
 
         return grid
 
-grid = Grid.from_vtk_file('example.vtk')
+# grid = Grid.from_vtk_file('example.vtk')
 
-print(grid.vertices[1])
-print(grid.elements[1])
-print(grid.get_corners(1))
-print(grid.get_jacobian(1))
+# (grid.vertices[1])
+# print(grprintid.elements[1])
+# print(grid.get_corners(1))
+# print(grid.get_jacobian(1))
